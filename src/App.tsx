@@ -8,7 +8,7 @@ function App() {
       </div>
       <div
         aria-label="content"
-        className="mx-auto px-8 md:px-0 md:w-1/2 md:max-w-[500px]"
+        className="mx-auto md:w-1/2 md:max-w-[500px]"
       >
         <div className="flex flex-col md:flex-row gap-4 items-center md:items-baseline">
           <div className="h-28 w-28 rounded-full bg-gray-500">
@@ -27,7 +27,7 @@ function App() {
           </div>
         </div>
         <div className="mt-4 md:mt-8">
-          <div className="text-xs md:text-md">
+          <div className="text-xs md:text-md md:px-0 px-4">
             Hi, I am Alfred Carro. I build apps from idea to production for
             startups and corporate projects. Frontend focused development with 5
             years experience in React. I spearheaded projects that produce
@@ -35,7 +35,7 @@ function App() {
           </div>
         </div>
 
-        <div className="mt-8">
+        <div className="mt-8 md:px-0 px-4">
           <ul className="list-none">
             <li className="grid grid-cols-4 md:gap-6 mb-6">
               <div className="col-span-4 md:col-span-1 text-sm text-nowrap text-gray-400  md:mb-2">
