@@ -31,7 +31,7 @@ function App() {
             Hi, I am Alfred Carro. I build apps from idea to production for
             startups and corporate projects. Frontend focused development with 5
             years experience in React. I spearheaded projects that produce
-            exciting experience.
+            exciting experience for its users.
           </div>
         </div>
 
