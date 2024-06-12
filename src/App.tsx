@@ -6,8 +6,11 @@ function App() {
       <div className="h-12 w-12 rounded-full bg-gray-500 mx-4 my-2">
         <img className="h-12 w-12 rounded-full object-cover" src={Logo} />
       </div>
-      <div aria-label="content" className="mx-auto w-1/2 max-w-[500px]">
-        <div className="flex flex-row gap-4">
+      <div
+        aria-label="content"
+        className="mx-auto px-8 md:px-0 md:w-1/2 md:max-w-[500px]"
+      >
+        <div className="flex flex-col md:flex-row gap-4 items-center md:items-baseline">
           <div className="h-28 w-28 rounded-full bg-gray-500">
             <img
               className="h-28 w-28 rounded-full object-cover grayscale hover:grayscale-0"
@@ -16,15 +19,15 @@ function App() {
           </div>
 
           <div className="flex flex-col justify-center">
-            <div className="font-semibold text-xl">
+            <div className="font-semibold text-md md:text-xl">
               Alfred Dann Vincent Carro
             </div>
             <div className="text-sm">Software Engineer</div>
             <div className="text-xs">Manila, Ph</div>
           </div>
         </div>
-        <div className="mt-8">
-          <div>
+        <div className="mt-4 md:mt-8">
+          <div className="text-xs md:text-md">
             Hi, I am Alfred Carro. I build apps from idea to production for
             startups and corporate projects. Frontend focused development with 5
             years experience in React. I spearheaded projects that produce
@@ -34,11 +37,11 @@ function App() {
 
         <div className="mt-8">
           <ul className="list-none">
-            <li className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-1 text-sm text-nowrap text-gray-400  mb-2">
+            <li className="grid grid-cols-4 md:gap-6 mb-6">
+              <div className="col-span-4 md:col-span-1 text-sm text-nowrap text-gray-400  md:mb-2">
                 <p>2023 - Present</p>
               </div>
-              <div className="col-span-3 text-sm">
+              <div className="col-span-4  md:col-span-3 text-sm">
                 <a
                   className="hover:underline"
                   target="__blank"
@@ -56,11 +59,11 @@ function App() {
               </div>
             </li>
 
-            <li className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-1 text-sm text-nowrap text-gray-400  mb-2">
-                <p>2023 - 2024</p>
+            <li className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+              <div className="col-span-4 md:col-span-1 text-sm text-nowrap text-gray-400 md:mb-2">
+                <p>2023 - Present</p>
               </div>
-              <div className="col-span-3 text-sm">
+              <div className="col-span-4 md:col-span-3 text-sm">
                 <a
                   className="hover:underline"
                   target="__blank"
@@ -79,11 +82,11 @@ function App() {
                 </p>
               </div>
             </li>
-            <li className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-1 text-sm text-nowrap text-gray-400  mb-2">
+            <li className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+              <div className="cols-span-4 md:col-span-1 text-sm text-nowrap text-gray-400  md:mb-2">
                 <p>2022 - 2023</p>
               </div>
-              <div className="col-span-3 text-sm">
+              <div className="col-span-4 md:col-span-3 text-sm">
                 <a
                   className="hover:underline"
                   target="__blank"
@@ -100,11 +103,11 @@ function App() {
               </div>
             </li>
 
-            <li className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-1 text-sm text-nowrap text-gray-400  mb-2">
+            <li className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+              <div className="cols-span-4 md:col-span-1 text-sm text-nowrap text-gray-400  md:mb-2">
                 <p>2021 - 2023</p>
               </div>
-              <div className="col-span-3 text-sm">
+              <div className="col-span-4 md:col-span-3 text-sm">
                 <a
                   className="hover:underline"
                   target="__blank"
@@ -120,11 +123,11 @@ function App() {
               </div>
             </li>
 
-            <li className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-1 text-sm text-nowrap text-gray-400 mb-2">
+            <li className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+              <div className="cols-span-4 md:col-span-1 text-sm text-nowrap text-gray-400  md:mb-2">
                 <p>2021 - 2023</p>
               </div>
-              <div className="col-span-3 text-sm">
+              <div className="col-span-4 md:col-span-3 text-sm">
                 <a
                   className="hover:underline"
                   target="__blank"
@@ -141,11 +144,11 @@ function App() {
               </div>
             </li>
 
-            <li className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-1 text-sm text-nowrap text-gray-400 mb-2">
+            <li className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+              <div className="cols-span-4 md:col-span-1 text-sm text-nowrap text-gray-400  md:mb-2">
                 <p>2020 - 2021</p>
               </div>
-              <div className="col-span-3 text-sm">
+              <div className="col-span-4 md:col-span-3 text-sm">
                 <a>Frontend Engineer, Bindle</a>
                 <p className="text-gray-400 mb-2">
                   Played a pivotal role in the development process by
@@ -159,11 +162,11 @@ function App() {
               </div>
             </li>
 
-            <li className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-1 text-sm text-nowrap text-gray-400 mb-2">
+            <li className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+              <div className="cols-span-4 md:col-span-1 text-sm text-nowrap text-gray-400  md:mb-2">
                 <p>2020 - 2021</p>
               </div>
-              <div className="col-span-3 text-sm">
+              <div className="col-span-4 md:col-span-3 text-sm">
                 <a>Frontend Engineer, S!ng</a>
                 <p className="text-gray-400 mb-2">
                   Contributed to the team of 3 by implementing a responsive user
@@ -177,11 +180,11 @@ function App() {
               </div>
             </li>
 
-            <li className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-1 text-sm text-nowrap text-gray-400 mb-2">
+            <li className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+              <div className="cols-span-4 md:col-span-1 text-sm text-nowrap text-gray-400  md:mb-2">
                 <p>2019 - 2020</p>
               </div>
-              <div className="col-span-3 text-sm">
+              <div className="col-span-4 md:col-span-3 text-sm">
                 <a>Frontend Engineer, Abaxx Exchange</a>
                 <p className="text-gray-400 mb-2">
                   Part take of the development as part of the core team in
@@ -197,11 +200,11 @@ function App() {
               </div>
             </li>
 
-            <li className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-1 text-sm text-nowrap text-gray-400 mb-2">
+            <li className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+              <div className="cols-span-4 md:col-span-1 text-sm text-nowrap text-gray-400  md:mb-2">
                 <p>2019 - 2020</p>
               </div>
-              <div className="col-span-3 text-sm">
+              <div className="col-span-4 md:col-span-3 text-sm">
                 <a>Frontend Engineer, Prime Revenue</a>
                 <p className="text-gray-400 mb-2">
                   Challenged myself to take on the project along with a huge
@@ -212,11 +215,11 @@ function App() {
               </div>
             </li>
 
-            <li className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-1 text-sm text-nowrap text-gray-400 mb-2">
+            <li className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+              <div className="cols-span-4 md:col-span-1 text-sm text-nowrap text-gray-400 md:mb-2">
                 <p>2018 - 2019</p>
               </div>
-              <div className="col-span-3 text-sm">
+              <div className="col-span-4 md:col-span-3 text-sm">
                 <a>Backend Engineer, Mr. Butler</a>
                 <p className="text-gray-400 mb-2">
                   Worked with the Backend Team to generate critical data
@@ -229,11 +232,11 @@ function App() {
               </div>
             </li>
 
-            <li className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-1 text-sm text-nowrap text-gray-400 mb-2">
+            <li className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+              <div className="cols-span-4 md:col-span-1 text-sm text-nowrap text-gray-400  md:mb-2">
                 <p>2018 - 2019</p>
               </div>
-              <div className="col-span-3 text-sm">
+              <div className="col-span-4 md:col-span-3 text-sm">
                 <a>Frontend Engineer, Operem</a>
                 <p className="text-gray-400 mb-2">
                   Created an echo system to allow the app to have a translation
@@ -245,19 +248,23 @@ function App() {
             </li>
           </ul>
 
-          <div className="grid grid-cols-4 gap-6 mb-6">
-            <span className="col-span-1 ">Linkedin: </span>
+          <div className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+            <span className="cols-span-4 md:col-span-1 text-sm text-nowrap text-gray-400  md:mb-2">
+              Linkedin:{" "}
+            </span>
             <a
-              className="col-span-3  text-gray-400 hover:underline text-sm"
+              className="col-span-4 md:col-span-3 text-sm"
               target="__blank"
               href="https://www.linkedin.com/in/alfredcarro/"
             >
               Alfred Carro
             </a>
           </div>
-          <div className="grid grid-cols-4 gap-6 mb-6">
-            <span className="col-span-1 ">Email: </span>
-            <a className="italic text-gray-400 text-sm col-span-3">
+          <div className="grid grid-cols-4 gap-0 md:gap-6 mb-6">
+            <span className="cols-span-4 md:col-span-1 text-sm text-nowrap text-gray-400 md:mb-2 ">
+              Email:{" "}
+            </span>
+            <a className="italic text-gray-400 col-span-4 md:col-span-3 text-sm">
               alfreddannvincentfcarro@gmail.com | advfcarro@gmail.com
             </a>
           </div>
