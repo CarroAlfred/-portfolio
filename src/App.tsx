@@ -10,7 +10,7 @@ function App() {
         aria-label="content"
         className="mx-auto md:w-1/2 md:max-w-[500px]"
       >
-        <div className="flex flex-col md:flex-row gap-4 items-center md:items-baseline">
+        <div className="flex flex-col md:flex-row gap-4 items-center">
           <div className="h-28 w-28 rounded-full bg-gray-500">
             <img
               className="h-28 w-28 rounded-full object-cover grayscale hover:grayscale-0"
