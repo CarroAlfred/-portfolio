@@ -55,7 +55,7 @@ function App() {
                   the Product Lead, to have the latest features and UI for the
                   CMS needed in the app.
                 </p>
-                <p>React | TailwindCSS | React Query | Zod | AWS</p>
+                <p>React | TailwindCSS | React Query | Zod | Vite |AWS</p>
               </div>
             </li>
 
@@ -77,7 +77,7 @@ function App() {
                   to create faster Web and Mobile aplication.
                 </p>
                 <p>
-                  React | Zustand | TailwindCSS | React Query | Web3 | Immutable
+                  React | Zustand | TailwindCSS | React Query | Vite | Web3 | Immutable
                   | AWS
                 </p>
               </div>
